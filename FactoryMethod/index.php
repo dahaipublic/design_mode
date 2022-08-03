@@ -2,12 +2,33 @@
 
 namespace Ba\DesignModel\FactoryMethod;
 
-require __DIR__.'/../vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 
 /**
+ * 工厂方法模式
+ *
+ * 应用场景
+ * 要实例化的对象充满不确定性可能会改变的时候；
+ * 要创建的对象的数目和类型是未知的；
+ *
+ * 结构
+ * 1个 interface 或者 abstract 产品父类；
+ * 多个实现 interface 或者继承 abstract 的具体产品类；
+ *
+ * 1个 interface 或者 abstract 工厂父类；
+ * 多个实现 interface 或者继承 abstract 的具体工厂类；
+ *
+ * 具体工厂类和具体产品类一一对应；
+ * 在具体工厂类中实例化具体的产品类
+ *
+ * 示例
+ * 要是感觉看起来有点懵咱用代码说话；
+ * 抽象类和加减乘数这四个产品类是不用变的；
+ * Operation.php
  * 客户端
  *
  * Class Client
+ *
  * @package Ba\DesignModel\FactoryMethod
  */
 class Client
@@ -39,7 +60,7 @@ class Client
      */
     public function good()
     {
-        $factory = new AddFactory();
+        $factory   = new AddFactory();
         $operation = $factory->create();
         $operation->setNumberA(1);
         $operation->setNumberB(2);
