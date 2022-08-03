@@ -1,12 +1,12 @@
 <?php
 
-namespace simpleFactory;
+namespace Ba\DesignModel\SimpleFactory;
 
 /**
  * 操作类型抽象类
  *
  * Class Operation
- * @package Baijunyao\DesignPatterns\SimpleFactory
+ * @package Ba\DesignModel\SimpleFactory
  */
 abstract class Operation
 {
@@ -52,19 +52,3 @@ abstract class Operation
     }
 
 }
-
-// 计算 1+2
-$operation = new Add();
-$operation->setNumberA(1);
-$operation->setNumberB(2);
-$result = $operation->getResult();
-echo $result;
-
-echo '<br>';
-
-// 计算 3+4
-$operation = new Add();
-$operation->setNumberA(3);
-$operation->setNumberB(4);
-$result = $operation->getResult();
-echo $result;

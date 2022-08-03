@@ -1,12 +1,12 @@
 <?php
 
-namespace simpleFactory;
+namespace Ba\DesignModel\SimpleFactory;
 
 /**
  * 乘法
  *
  * Class Mul
- * @package Baijunyao\DesignPatterns\SimpleFactory
+ * @package Ba\DesignModel\SimpleFactory
  */
 class Mul extends Operation
 {

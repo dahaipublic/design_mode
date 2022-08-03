@@ -1,12 +1,12 @@
 <?php
 
-namespace simpleFactory;
+namespace Ba\DesignModel\SimpleFactory;
 
 /**
  * 减法
  *
  * Class Sub
- * @package Baijunyao\DesignPatterns\SimpleFactory
+ * @package Ba\DesignModel\SimpleFactory
  */
 class Sub extends Operation
 {

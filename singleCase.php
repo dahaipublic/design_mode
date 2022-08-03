@@ -4,7 +4,7 @@
  * 单例
  *
  * Class Db2
- * @package Baijunyao\DesignPatterns\Singleton
+ * @package Dahai\DesignModel\Singleton
  */
 class Db2
 {

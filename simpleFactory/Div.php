@@ -1,12 +1,12 @@
 <?php
 
-namespace simpleFactory;
+namespace Ba\DesignModel\SimpleFactory;
 
 /**
  * 除法
  *
  * Class Div
- * @package Baijunyao\DesignPatterns\SimpleFactory
+ * @package Ba\DesignModel\SimpleFactory
  */
 class Div extends Operation
 {

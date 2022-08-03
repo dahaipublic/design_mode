@@ -1,12 +1,12 @@
 <?php
 
-namespace simpleFactory;
+namespace Ba\DesignModel\SimpleFactory;
 
 /**
  * 加法
  *
  * Class Add
- * @package Baijunyao\DesignPatterns\SimpleFactory
+ * @package Ba\DesignModel\SimpleFactory
  */
 class Add extends Operation
 {

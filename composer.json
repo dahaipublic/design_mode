@@ -1,0 +1,18 @@
+{
+    "name": "baijunyao/design-model",
+    "description": "design model",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "baijunyao",
+            "email": "baijunyao@baijunyao.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Ba\\DesignModel\\": ""
+        }
+    }
+}

@@ -1,6 +1,6 @@
 <?php
 
-namespace simpleFactory;
+namespace Ba\DesignModel\SimpleFactory;
 
 require __DIR__.'/../vendor/autoload.php';
 
@@ -8,7 +8,7 @@ require __DIR__.'/../vendor/autoload.php';
  * 客户端
  *
  * Class Client
- * @package Baijunyao\DesignPatterns\SimpleFactory
+ * @package Ba\DesignModel\SimpleFactory
  */
 class Client
 {
